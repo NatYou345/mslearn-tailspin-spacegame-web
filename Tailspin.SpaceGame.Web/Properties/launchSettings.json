@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Tailspin.SpaceGame.Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:59868;http://localhost:59869"
+    }
+  }
+}
