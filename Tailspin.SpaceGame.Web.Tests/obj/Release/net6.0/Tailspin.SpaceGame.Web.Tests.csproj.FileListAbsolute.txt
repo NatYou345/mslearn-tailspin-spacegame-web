@@ -106,3 +106,4 @@ C:\Users\ALLEGRANathan\Source\Repos\mslearn-tailspin-spacegame-web\Tailspin.Spac
 C:\Users\ALLEGRANathan\Source\Repos\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\obj\Release\net6.0\Tailspin.SpaceGame.Web.Tests.pdb
 C:\Users\ALLEGRANathan\Source\Repos\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\obj\Release\net6.0\Tailspin.SpaceGame.Web.Tests.genruntimeconfig.cache
 C:\Users\ALLEGRANathan\Source\Repos\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\obj\Release\net6.0\ref\Tailspin.SpaceGame.Web.Tests.dll
+C:\Users\ALLEGRANathan\Source\Repos\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\bin\Release\net6.0\CoverletSourceRootsMapping_Tailspin.SpaceGame.Web.Tests
