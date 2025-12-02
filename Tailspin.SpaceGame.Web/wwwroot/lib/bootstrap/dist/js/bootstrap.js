@@ -28,6 +28,16 @@ if (typeof jQuery === 'undefined') {
 +function ($) {
   'use strict';
 
+  // Utility to escape HTML
+  function escapeHTML(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
   // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
   // ============================================================
 
@@ -1562,6 +1572,10 @@ if (typeof jQuery === 'undefined') {
     var $tip  = this.tip()
     var title = this.getTitle()
 
+    // Escape the title if it came from a DOM attribute and .html() will be used
+    if (this.options.html && this.$element && this.$element.attr('data-original-title') !== undefined) {
+      title = escapeHTML(title);
+    }
     $tip.find('.tooltip-inner')[this.options.html ? 'html' : 'text'](title)
     $tip.removeClass('fade in top bottom left right')
   }
